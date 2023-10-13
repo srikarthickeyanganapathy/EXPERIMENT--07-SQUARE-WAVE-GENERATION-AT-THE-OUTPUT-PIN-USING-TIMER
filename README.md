@@ -96,44 +96,63 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
+```
+/*
+Developed By : SRI KARTHICKEYAN GANAPATHY
+Reg No : 212222240102
+Dept : ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING
+*/
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  MX_TIM2_Init();
+  HAL_TIM_Base_Start(&htim2);
+  HAL_TIM_PWM_Init(&htim2);
+  HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+  while (1)
+  {
+  }
+}
 
-
-
-
-
+```
 ## Output screen shots of proteus  :
- 
+![Sandy](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/4b1d36f1-79aa-4824-85d0-e7b6727df1e0)
+
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![EX07CR](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/dde4c08b-11bf-4b8a-bbfd-d9723bce7d33)
+
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
+![EX7W](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/8ee019b6-fba4-47ac-89ae-d98458af7e3e)
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+TON = 2 
+TOFF= 2
+TOTAL TIME = 4
+FREQUENCY = 1/(TOTAL TIME) = 259Hz
 
 FOR PULSE AT 700
+![EX7W2](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/8fc21861-11aa-4bad-9a44-2fc4497372b7)
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+
+TON = 3
+TOFF= 1
+TOTAL TIME = 4
+FREQUENCY = 1/(TOTAL TIME) = 250Hz
 
 
 FOR PULSE AT 900
+![EX7W3](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/336bde30-4a62-446e-ba44-4ec53f47bd24)
 
-TON = 
-TOFF=
-TOTAL TIME = 
-FREQUENCY = 1/(TOTAL TIME)
+
+TON = 3.5
+TOFF= 0.5
+TOTAL TIME = 4
+FREQUENCY = 1/(TOTAL TIME) = 250Hz
 
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
-
-
-
-
