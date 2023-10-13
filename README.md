@@ -118,12 +118,10 @@ int main(void)
 
 ```
 ## Output screen shots of proteus  :
-![Sandy](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/4b1d36f1-79aa-4824-85d0-e7b6727df1e0)
+![image](https://github.com/srikarthickeyanganapathy/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393842/1b1c375c-81a3-4634-8238-419c4a9091f0)
 
- 
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- ![EX07CR](https://github.com/SanthoshUthiraKumar/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119477975/dde4c08b-11bf-4b8a-bbfd-d9723bce7d33)
-
+ ![image](https://github.com/srikarthickeyanganapathy/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/119393842/2bab9a1b-a239-4ba2-9adb-1940b4357ed3)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
